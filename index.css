@@ -1,79 +1,91 @@
 body {
-    margin: 0;
-    background: black;
-   
+  margin: 0;
+  background: black;
 }
 
-.heading-container{
-    background: #1F2937;
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    margin: 64px auto 64px 62px;
-    padding-top: 115px;
-    padding-left: 52px;
-    font-family: 'Karla';
-    font-size: 40px;
-    font-weight: 800;
-    letter-spacing: -0.025em;
+.heading-container {
+  background: #1f2937;
+  width: 550px;
+  height: 550px;
+  margin: 64px auto 64px 62px;
+  padding-top: 115px;
+  padding-left: 52px;
+  font-family: "Karla";
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.025em;
 }
 
-#first{
-    color: white;
+#first {
+  color: white;
 }
 
-#second{
-    color: #4ADF86;
-    margin-bottom: 5px;
+#second {
+  color: #4adf86;
+  margin-bottom: 5px;
 }
- #desc{
-     color:#D5D4D8;
-     font-family: 'Inter';
-     font-size: 20px;
-     font-weight: 400;
-     line-height: 28px;
-     margin-top:5px;
-     
-     
- }
- 
- button{
-     background: #10B981;
-     border: none;
-     border-radius: 6px;
-     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-     color: white;
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     padding: 9px 17px 9px 15px;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 28px;
-     width: 191px;
-     height: 42px;
-     margin-top: 59px;
-     
- }
- 
- .line{
-     height: 0px;
-     width: 446px;
-     background: #2F3E53;
-     margin-top: 35px;
-     border: 1px solid #2F3E53;
- }
- 
- #passOne, #passTwo{
-     background: #273549;
-     width: 211px;
-     height:39px;
-     margin-right: 24px;
-     border-radius: 6px;
-     color: #55F991;
-     font-size: 16px;
-     font-weight: 500;
-     text-align: center;
-     line-height: 32px;
- }
+#desc {
+  color: #d5d4d8;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 5px;
+}
+
+#generate-button {
+  background: #10b981;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: white;
+  display: flex;
+  padding: 9px 17px 9px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 191px;
+  height: 42px;
+  margin-top: 59px;
+}
+
+#line {
+  margin-left: 0;
+  height: 0px;
+  width: 446px;
+  background: #2f3e53;
+  margin-top: 35px;
+  border: 1px solid #2f3e53;
+}
+
+#passOne,
+#passTwo {
+  background: #273549;
+  width: 211px;
+  height: 39px;
+  margin-right: 24px;
+  border-radius: 6px;
+  color: #55f991;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 32px;
+}
+
+.copy-buttons {
+  display: flex;
+}
+
+#copy-1,
+#copy-2 {
+  padding: none;
+  height: 20px;
+  width: 60px;
+  margin-right: 175px;
+  font-size: 10px;
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: white;
+}

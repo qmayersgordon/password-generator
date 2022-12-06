@@ -4,20 +4,22 @@
     </head>
     <body>
         <div class="heading-container">
-          
-                <span id="first">Generate a</span>
-                </br>
-                <span id="second">random password</span>
-          
-            <button onclick="generatePass()">Generate Passwords</button>
-            <div class="line"></div>
-            <div style="display: flex; max-width: 100%">
-                <p id="passOne"></p>
-              
-                <p id="passTwo"></p>
-                
-            <div>
+            <span id="first">Generate a</span>
+            </br>
+            <span id="second">random password</span>
+            <button id="generate-button">Generate Passwords</button>
+            <hr id="line">
+            <div class="passwords" style="display:flex;">
+                <span id="passOne"></span>
+                <span id="passTwo"></span>  
+            </div>
+            <div class="copy-buttons">
+               <button id="copy-1">Copy Text</button>
+                <button id="copy-2">Copy Text</button> 
+            </div>
+            
         </div>
+
         <script src="index.js"></script>
     </body>
 </html>
